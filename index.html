@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rafael Barradas | Software Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="logo">
+          <span class="logo-mark">RB</span>
+          <span class="logo-text">Rafael Barradas</span>
+        </div>
+        <nav class="main-nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO / INTRO -->
+      <section class="hero">
+        <div class="container hero-content">
+          <div>
+            <p class="hero-tag">Full-Stack Software Engineering Student</p>
+            <h1>Hi, I’m Rafael.</h1>
+            <p class="hero-text">
+              I’m a full-stack software engineering student at Atlas School in Tulsa, OK.
+              I enjoy building real-world applications using React, TypeScript, C#, Python,
+              SQL, and REST APIs. I’m working toward a career as a software engineer.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary">View My Projects</a>
+              <a href="#contact" class="btn secondary">Get in Touch</a>
+            </div>
+          </div>
+          <div class="hero-photo-wrapper">
+            <!-- TODO: Replace the src with your real photo file -->
+            <img
+              src="images/rafael-photo.jpg"
+              alt="Professional photo of Rafael Barradas"
+              class="hero-photo"
+            />
+            <p class="photo-note">Use the same photo as LinkedIn.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT ME -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p class="section-text">
+            I’m Rafael Barradas, a full-stack software engineering student at
+            <a href="https://www.atlasschool.com" target="_blank" rel="noreferrer">Atlas School</a>
+            in Tulsa, OK (Graduation: 2026). I’m building experience with React, TypeScript,
+            C#, Python, SQL, REST APIs, Git/GitHub, and AWS. I enjoy solving problems,
+            learning new tools, and creating applications that feel good to use.
+          </p>
+          <p class="section-text">
+            I’ve worked on projects like a
+            <a href="#projects">Media Manager API</a>,
+            a Dog Breeds API website, and a Bookshelf app that uses Object-Oriented Programming.
+            I’m bilingual in English and Spanish and I’m excited to grow into a professional
+            software engineering role.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section alt-bg">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+              <img
+                src="images/media-manager-screenshot.png"
+                alt="Screenshot of Media Manager API Swagger UI"
+                class="project-image"
+              />
+              <h3>Media Manager API</h3>
+              <p class="project-text">
+                A RESTful API built with ASP.NET Core and SQL. Implements full CRUD for media items,
+                input validation, logging, and Swagger documentation. Follows clean structure with
+                dependency injection.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/RafaelBD99/cs1400-assignment-media-manager-api-RafaelBD99"
+                  target="_blank"
+                  rel="noreferrer"
+                  >GitHub README</a
+                >
+                <!-- Replace with real deployed URL if you deploy it -->
+                <a href="#" class="disabled-link">Deployed (coming soon)</a>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card">
+              <img
+                src="images/dog-breeds-screenshot.png"
+                alt="Screenshot of Dog Breeds API website"
+                class="project-image"
+              />
+              <h3>Dog Breeds API Website</h3>
+              <p class="project-text">
+                A single-page website built with JavaScript and Axios that fetches dog breeds and
+                images from a public API. Includes loading states, error handling, and a responsive
+                image layout.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/RafaelBD99/wd1250-assignment-dog-breeds-api-RafaelBD99"
+                  target="_blank"
+                  rel="noreferrer"
+                  >GitHub README</a
+                >
+                <!-- Replace with deployed link if you host it -->
+                <a href="#" class="disabled-link">Deployed (coming soon)</a>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card">
+              <img
+                src="images/bookshelf-screenshot.png"
+                alt="Screenshot of Bookshelf App"
+                class="project-image"
+              />
+              <h3>Bookshelf App</h3>
+              <p class="project-text">
+                A small front-end app demonstrating Object-Oriented Programming with Book,
+                FictionBook, and NonFictionBook classes. Shows how user input is mapped into
+                class-based objects and displayed on the page.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/RafaelBD99/wd1250-assignment-typescript-bookshelf-RafaelBD99"
+                  target="_blank"
+                  rel="noreferrer"
+                  >GitHub README</a
+                >
+                <!-- Replace with deployed link if hosted -->
+                <a href="#" class="disabled-link">Deployed (coming soon)</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME -->
+      <section id="resume" class="section">
+        <div class="container">
+          <h2>Resume</h2>
+          <p class="section-text">
+            This is my current draft resume (Week 2). I will continue to update it as I complete
+            more projects and gain new experience.
+          </p>
+
+          <div class="resume-actions">
+            <!-- TODO: Replace resume.pdf with your actual PDF file name -->
+            <a href="resume-rafael-barradas.pdf" class="btn primary" download>
+              Download Resume (PDF)
+            </a>
+          </div>
+
+          <!-- Optional simple embedded viewer using iframe -->
+          <div class="resume-embed">
+            <!-- Replace src with your real PDF path or a Google Drive share link -->
+            <iframe
+              src="resume-rafael-barradas.pdf"
+              title="Rafael Barradas Resume PDF"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section alt-bg">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="section-text">
+            I’m open to internships, entry-level roles, and opportunities to grow as a software
+            engineer. Feel free to reach out by email or connect with me on LinkedIn.
+          </p>
+
+          <div class="contact-grid">
+            <div>
+              <h3>Contact Info</h3>
+              <ul class="contact-list">
+                <li>
+                  📧 Email:
+                  <a href="mailto:rekaetnet@gmail.com">rekaetnet@gmail.com</a>
+                </li>
+                <li>
+                  🔗 LinkedIn:
+                  <a
+                    href="https://www.linkedin.com/in/rafael-barradas-909129353/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >linkedin.com/in/rafael-barradas-909129353/</a
+                  >
+                </li>
+                <li>
+                  💻 GitHub:
+                  <a
+                    href="https://github.com/RafaelBD99"
+                    target="_blank"
+                    rel="noreferrer"
+                    >github.com/RafaelBD99</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Simple contact form (does NOT send automatically without backend, but looks good for assignment) -->
+            <div>
+              <h3>Quick Message</h3>
+              <form class="contact-form">
+                <label>
+                  Name
+                  <input type="text" name="name" placeholder="Your name" />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="email" placeholder="you@example.com" />
+                </label>
+                <label>
+                  Message
+                  <textarea name="message" rows="4" placeholder="Your message"></textarea>
+                </label>
+                <button type="submit" class="btn primary" disabled>
+                  Send (Demo Only)
+                </button>
+                <p class="form-note">
+                  This form is for display only for now. Please email me directly at
+                  <a href="mailto:rekaetnet@gmail.com">rekaetnet@gmail.com</a>.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2025 Rafael Barradas. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
